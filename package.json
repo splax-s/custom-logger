@@ -5,10 +5,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --esm index.js",
-    "start": "ts-node  --esm index.js"
+    "dev": "nodemon index.js",
+    "start": "ts-node index.js"
   },
   "dependencies": {
     "chalk": "4"
-  }
+  },
+  "repository": "https://github.com/splax-s/custom-logger.git",
+  "author": "Ikhanoba Michael-Shaka <shakaikhanoba@gmail.com>"
 }
