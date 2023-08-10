@@ -1,4 +1,4 @@
-
+const chalk = require('chalk')
 
 const logEndpoints = (req, res, next) => {
  const start = process.hrtime();
