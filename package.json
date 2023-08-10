@@ -1,0 +1,11 @@
+{
+  "name": "custom-logger-node",
+  "version": "1.0.0",
+  "description": "A simple logger for express js",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --esm index.js",
+    "start": "ts-node  --esm index.js"
+  }
+}
